@@ -5,6 +5,7 @@
  */
 package Procesos;
 
+import Leche.LecheDeslactosada;
 import Leche.LecheDescremada;
 import Leche.LecheEntera;
 import Postres.*;
@@ -14,12 +15,8 @@ import Postres.*;
  * @author Pedro Mendoza
  */
 public class ManejadorDeLeche {
-
-    public ManejadorDeLeche(LecheDescremada lecheDescremada) {
-		// TODO Auto-generated constructor stub
-	}
-
-	public void cambiarTipoLeche(LecheEntera leche, Object postre){
+    
+    public void cambiarTipoLeche(LecheEntera leche, Object postre){
         // Cambiar tipo de leche en la preparación de los postres, usar leche deslactosada
         System.out.println(postre.getClass());
         System.out.println(Pastel.class);

@@ -2,7 +2,6 @@ package Postres;
 
 import java.util.ArrayList;
 import Procesos.*;
-
 import Aderezo.Aderezo;
 import Aderezo.*;
 
@@ -42,12 +41,4 @@ public class Postre {
 	        return aderezos;
 	    }
 
-	    public static void anadirAderezoPostre(Postre postre, Aderezo aderezos){
-	        postre.getAderezos().add(aderezos);
-	    }
-	    
-	    public static void quitarAderezoPostre(Postre postre, Aderezo aderezos){
-	        postre.getAderezos().remove(aderezos);
-	    }
-	    
 }

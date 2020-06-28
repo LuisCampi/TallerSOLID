@@ -3,11 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Leche;
+package Adicionales;
 
-import Postres.*;
-
-public abstract class LecheEntera {
-    public abstract void usarHelado();
-    public abstract void usarPastel();
+/**
+ *
+ * @author Pedro Mendoza
+ */
+public enum Aderezo {
+    MALVAVISCOS,FRUTILLA,CREMA
+    
 }
