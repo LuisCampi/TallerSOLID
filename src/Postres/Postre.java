@@ -41,13 +41,5 @@ public class Postre {
 	    public ArrayList<Aderezo> getAderezos() {
 	        return aderezos;
 	    }
-
-	    public static void anadirAderezoPostre(Postre postre, Aderezo aderezos){
-	        postre.getAderezos().add(aderezos);
-	    }
-	    
-	    public static void quitarAderezoPostre(Postre postre, Aderezo aderezos){
-	        postre.getAderezos().remove(aderezos);
-	    }
 	    
 }
