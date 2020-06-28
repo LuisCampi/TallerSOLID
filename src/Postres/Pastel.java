@@ -6,12 +6,14 @@
 package Postres;
 
 import java.util.ArrayList;
+import Procesos.*;
 
 /**
  *
  * @author Pedro Mendoza
  */
 public class Pastel extends Postre{
+	
     public Pastel(String sabor) {
 		super(sabor);
 		// TODO Auto-generated constructor stub
