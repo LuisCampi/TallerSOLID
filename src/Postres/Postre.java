@@ -42,10 +42,6 @@ public class Postre {
 	        return aderezos;
 	    }
 
-	    
-	// ESTE ES UN ARCHIVO EL CUAL POSEE POCO CODIGO, DONDE SE ESTABLECEN LOS ADEREZOS COMO CONSTANTES.
-	//SIN EMBARGO, HAY UNA CLASE LLAMADA OperacionesAderezo CON VARIOS METODOS, LOS CUALES PUEDEN IR DENTRO DE ESTE ARCHIVO
-	  
 	    public static void anadirAderezoPostre(Postre postre, Aderezo aderezos){
 	        postre.getAderezos().add(aderezos);
 	    }

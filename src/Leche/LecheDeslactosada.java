@@ -1,7 +1,5 @@
 package Leche;
 
-
-
 public class LecheDeslactosada extends LecheEntera {
     
     @Override
